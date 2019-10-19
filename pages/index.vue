@@ -1,72 +1,62 @@
 <template>
   <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        portfolio-2019
-      </h1>
-      <h2 class="subtitle">
-        2019 portfolio
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+    <Nav />
+    <img src="../assets/me.jpg" alt="">
+    <h1 class="title">
+      Levi Boenish
+    </h1>
+    <h1 class="about-index">00</h1>
+    <About />
+    <Skills />
+    <Experience />
+    <Contact />
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import Nav from '~/components/Nav.vue'
+import About from '~/components/About.vue'
+import Skills from '~/components/Skills.vue'
+import Experience from '~/components/Experience.vue'
+import Contact from '~/components/Contact.vue'
+
 
 export default {
   components: {
-    Logo
+    Nav,
+    About,
+    Skills,
+    Experience,
+    Contact
   }
 }
 </script>
-
 <style>
+
 .container {
   margin: 0 auto;
+  max-width: 60rem;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+img {
+  width: 15rem;
+  height: auto;
+}
+
+Nav {
+  grid-column: 11/13;
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  grid-column: 1/8;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.about-index{
+  grid-column: 9/11
 }
 
-.links {
-  padding-top: 15px;
-}
 </style>
