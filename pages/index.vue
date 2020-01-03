@@ -5,11 +5,12 @@
     <h1 class="title">
       Levi Boenish
     </h1>
-    <h1 class="about-index">00</h1>
+    <h1 class="about-index main-index">00.</h1>
     <About />
     <Skills />
     <Experience />
     <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import About from '~/components/About.vue'
 import Skills from '~/components/Skills.vue'
 import Experience from '~/components/Experience.vue'
 import Contact from '~/components/Contact.vue'
+import Footer from '~/components/Footer.vue'
 
 
 export default {
@@ -27,36 +29,60 @@ export default {
     About,
     Skills,
     Experience,
-    Contact
+    Contact,
+    Footer,
   }
 }
 </script>
 <style>
 
+body {
+  background: #141213;
+  color: #CFC8C2;
+}
+
 .container {
   margin: 0 auto;
-  max-width: 60rem;
-  min-height: 100vh;
-  border: 1px solid red;
+  max-width: 100vw;
+  height: 100vh;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.main-index {
+  display: none;
 }
 
 img {
-  width: 15rem;
-  height: auto;
-}
-
-Nav {
-  grid-column: 11/13;
+  display: none;
 }
 
 .title {
-  grid-column: 1/8;
+  grid-column: 1/5;
+  font-size: 68px;
+  color: #616161;
 }
 
-.about-index{
-  grid-column: 9/11
+.section-content {
+  grid-column: 1/5;
 }
 
+.section-header {
+  text-transform: uppercase;
+  grid-column: 2/4;
+  font-size: 50px;
+}
+
+.section-index {
+  color: #242424;
+  font-size: 31px;
+}
+
+.section-container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 1rem;
+}
 </style>

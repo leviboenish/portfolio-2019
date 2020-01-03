@@ -1,0 +1,26 @@
+<template>
+  <div class="footer section-container">
+      <p class="footer-item">Levi Boenish Portfolio&mdash;(c)2020</p>
+      <p class="footer-item">Code&mdash;Levi Boenish</p>
+      <p class="footer-item">Design&mdash;Henry Desroches</p>
+  </div>
+</template>
+
+<script>
+
+</script>
+
+<style>
+.footer {
+    font-size: 12px;
+    grid-column: 1/5;
+    text-align: right;
+    grid-row-gap: 0;
+    padding-bottom: 2rem;
+}
+
+.footer-item {
+    grid-column: 2/5;
+}
+
+</style>

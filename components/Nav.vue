@@ -1,10 +1,10 @@
 <template>
   <nav>
       <ul>
-          <li>00 About</li>
-          <li>01 Skills</li>
-          <li>02 XP</li>
-          <li>03 Contact</li>
+          <li class="nav-item">00 ABOUT</li>
+          <li class="nav-item">01 SKILLS</li>
+          <li class="nav-item">02 EXP</li>
+          <li class="nav-item">03 CONTACT</li>
       </ul>
   </nav>
 </template>
@@ -15,14 +15,14 @@
 
 <style>
 
-ul {
-    padding: 0;
+nav {
+  grid-column: 1/3;
+  padding-top: 5rem;
 }
 
-li {
-    text-align: left;
+ul {
     list-style-type: none;
-    font-weight: bold;
+    padding: 0;
 }
 
 </style>
