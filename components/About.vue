@@ -1,5 +1,5 @@
 <template>
-  <div class="about section-container">
+  <div class="section-container" id="about">
     <h3 class="sub-title">Front-End Developer</h3>
     <p class="section-content">I am Levi Boenish Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, voluptas perspiciatis asperiores nobis nihil qui eaque id sunt pariatur culpa provident, architecto ex dignissimos eligendi corrupti distinctio molestias cumque nam.</p>
   </div>
@@ -10,7 +10,7 @@
 </script>
 
 <style>
-.about{
+#about{
   grid-column: 1/5;
 }
 

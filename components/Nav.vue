@@ -1,10 +1,10 @@
 <template>
   <nav>
       <ul>
-          <li class="nav-item">00 ABOUT</li>
-          <li class="nav-item">01 SKILLS</li>
-          <li class="nav-item">02 EXP</li>
-          <li class="nav-item">03 CONTACT</li>
+          <li class="nav-item"><a href="#about">00 ABOUT</a></li>
+          <li class="nav-item"><a href="#skills">01 SKILLS</a></li>
+          <li class="nav-item"><a href="#experience">02 EXP</a></li>
+          <li class="nav-item"><a href="#contact">03 CONTACT</a></li>
       </ul>
   </nav>
 </template>
@@ -14,6 +14,14 @@
 </script>
 
 <style>
+a {
+  text-decoration: none;
+  color: #CFC8C2;
+}
+
+a:active, a:hover {
+  color: #242424;
+}
 
 nav {
   grid-column: 1/3;

@@ -1,5 +1,5 @@
 <template>
-  <div class="experience section-container">
+  <div class="section-container" id="experience">
       <h1 class="section-index">02.</h1>
       <h2 class="section-header">Exp&mdash; erience</h2>
       <div class="job-history">
@@ -21,7 +21,7 @@
 </script>
 
 <style>
-.experience {
+#experience {
     grid-column: 1/5;
 }
 

@@ -65,6 +65,7 @@ img {
   color: #616161;
 }
 
+
 .section-content {
   grid-column: 1/5;
 }
@@ -78,6 +79,7 @@ img {
 .section-index {
   color: #242424;
   font-size: 31px;
+  align-self: end;
 }
 
 .section-container {

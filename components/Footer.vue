@@ -1,5 +1,5 @@
 <template>
-  <div class="footer section-container">
+  <div class="section-container" id="footer">
       <p class="footer-item">Levi Boenish Portfolio&mdash;(c)2020</p>
       <p class="footer-item">Code&mdash;Levi Boenish</p>
       <p class="footer-item">Design&mdash;Henry Desroches</p>
@@ -11,7 +11,7 @@
 </script>
 
 <style>
-.footer {
+#footer {
     font-size: 12px;
     grid-column: 1/5;
     text-align: right;
