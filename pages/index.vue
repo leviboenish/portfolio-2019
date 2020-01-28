@@ -66,7 +66,7 @@ img {
 }
 
 
-.section-content {
+.section-content, .about-content {
   grid-column: 1/5;
 }
 
@@ -74,6 +74,7 @@ img {
   text-transform: uppercase;
   grid-column: 2/4;
   font-size: 50px;
+  align-self: end;
 }
 
 .section-index {
@@ -86,5 +87,57 @@ img {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    grid-gap: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  
+  .container {
+    grid-template-columns: repeat(12, 1fr);
+    padding: 5rem 15rem 0 15rem;
+    grid-gap: 3rem;
+  }
+
+  img {
+    display: block;
+    height: 325px;
+    width: auto;
+    grid-column: 1/5;
+  }
+
+  .main-index {
+    display: inline-block;
+    color: #242424;
+    font-size: 100px;
+    align-self: end; 
+    grid-column: 8/10;
+  }
+
+  .section-index {
+    font-size: 100px;
+  }
+
+  .section-header {
+      grid-column: 2/4;
+  }
+
+  .section-content {
+    grid-column: 2/6;
+  }
+
+  .about-content{
+    grid-column: 7/10;
+  }
+
+  .title {
+    font-size: 132px;
+    grid-column: 1/6;
+  }
+
+  .section-container {
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   grid-gap: 3rem;
+}
+
 }
 </style>

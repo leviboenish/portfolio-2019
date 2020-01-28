@@ -1,7 +1,7 @@
 <template>
   <div class="section-container" id="about">
     <h3 class="sub-title">Front-End Developer</h3>
-    <p class="section-content">I am Levi Boenish Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, voluptas perspiciatis asperiores nobis nihil qui eaque id sunt pariatur culpa provident, architecto ex dignissimos eligendi corrupti distinctio molestias cumque nam.</p>
+    <p class="about-content">I’m Levi Boenish, a full stack developer with a specialization in front end technologies from Denver Colorado. I’ve been writing code for that past four years and am currently working on developing user interfaces for the medical space. Outside of writing code I am an avid climber, musician, and paladin/warlock multi-class.</p>
   </div>
 </template>
 
@@ -10,6 +10,7 @@
 </script>
 
 <style>
+
 #about{
   grid-column: 1/5;
 }
@@ -18,5 +19,20 @@
   font-size: 21px;
   grid-column: 1/3;
   text-transform: uppercase;
+}
+
+@media only screen and (min-width: 600px) {
+
+  #about {
+    margin-top: 10rem;
+    grid-column: 1/13;
+  }
+
+  
+
+  .sub-title {
+    grid-column: 7/10;
+  }
+
 }
 </style>
