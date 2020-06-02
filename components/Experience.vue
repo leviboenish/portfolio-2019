@@ -7,14 +7,14 @@
                <h2 class="company">SomaLogic</h2>
                <h3 class="dates">July 2019 &mdash; Present</h3>
           </div>
-          <p>While working for PromonTech I primarily dealt with the logical implementation of new features in our apps. I built new features and also wrote unit tests in Jasmine. I primarily worked with HTML, CSS, and JS in AngularJS as well as Angular 6.</p>
+          <p>At SomaLogic I am currently a UX/UI engineer. I am the project owner for how our consumer facing reports are rendered. I primarily work with HTML, CSS, and JS in Vue and we write our unit tests in Jest. I do everything from helping to design our apps in Figma to implementing how they are built.</p>
       </div>
       <div class="job-history">
           <div class="job-info">
               <h2 class="company">Promontech</h2>
               <h3 class="dates">October 2018 &mdash; July 2019</h3>
           </div>
-          <p>At SomaLogic I am currently a UX/UI engineer. I am the project owner for how our consumer facing reports are rendered. I primarily work with HTML, CSS, and JS in Vue and we write our unit tests in Jest. I do everything from helping to design our apps in Figma to implementing how they are built.</p>
+          <p>While working for PromonTech I primarily dealt with the logical implementation of new features in our apps. I built new features and also wrote unit tests in Jasmine. I primarily worked with HTML, CSS, and JS in AngularJS as well as Angular 6.</p>
       </div>
 
   </div>
