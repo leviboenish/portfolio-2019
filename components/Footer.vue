@@ -33,7 +33,8 @@
     }
 
     #copy-year {
-        grid-column: 1/4;
+        grid-column: 1/3;
+        text-align: left;
     }
 }
 

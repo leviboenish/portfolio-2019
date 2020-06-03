@@ -5,23 +5,28 @@
       <div class="job-history">
           <div class="job-info">
                <h2 class="company">SomaLogic</h2>
-               <h3 class="dates">July 2019 &mdash; Present</h3>
+               <h3 class="dates">Jul 2019 &mdash; Present</h3>
           </div>
-          <p>At SomaLogic I am currently a UX/UI engineer. I am the project owner for how our consumer facing reports are rendered. I primarily work with HTML, CSS, and JS in Vue and we write our unit tests in Jest. I do everything from helping to design our apps in Figma to implementing how they are built.</p>
+          <div class="job-description">
+            <p>At SomaLogic I am currently a UX/UI engineer. I am the project owner for how our consumer facing reports are rendered. I primarily work with HTML, CSS, and JS in Vue and we write our unit tests in Jest. I do everything from helping to design our apps in Figma to implementing how they are built.</p>
+          </div>
       </div>
       <div class="job-history">
           <div class="job-info">
               <h2 class="company">Promontech</h2>
-              <h3 class="dates">October 2018 &mdash; July 2019</h3>
+              <h3 class="dates">Oct 2018 &mdash; Jul 2019</h3>
           </div>
-          <p>While working for PromonTech I primarily dealt with the logical implementation of new features in our apps. I built new features and also wrote unit tests in Jasmine. I primarily worked with HTML, CSS, and JS in AngularJS as well as Angular 6.</p>
+          <div class="job-description">
+            <p>While working for PromonTech I primarily dealt with the logical implementation of new features in our apps. I built new features and also wrote unit tests in Jasmine. I primarily worked with HTML, CSS, and JS in AngularJS as well as Angular 6.</p>
+          </div>
       </div>
-
   </div>
 </template>
 
 <script>
+    export default {
 
+    }
 </script>
 
 <style>
@@ -57,17 +62,21 @@
  
  .job-history {
      grid-column: 2/10;
-     display: flex;
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
  }
 
  .company, .dates {
-     text-align: right;
+     text-align: left;
  }
 
-
  .job-info {
-    margin-right: 1rem;
-    width: 25rem;
+     width: 9rem;
+ }
+
+ .job-description {
+    grid-column: 2/7;
+    margin-left: 2rem;
  }
 
  .exp-desktop {

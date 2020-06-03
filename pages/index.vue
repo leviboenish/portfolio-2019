@@ -95,6 +95,7 @@ img {
     grid-template-columns: repeat(12, 1fr);
     padding: 5rem 15rem 0 15rem;
     grid-gap: 3rem;
+    max-width: 1920px;
   }
 
   img {
@@ -137,6 +138,7 @@ img {
    display: grid;
    grid-template-columns: repeat(12, 1fr);
    grid-gap: 3rem;
+   margin-bottom: 5rem;
 }
 
 }

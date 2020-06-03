@@ -61,6 +61,7 @@ svg {
  
   #contact {
     grid-column: 1/13;
+    margin-bottom: 25rem;
   }
 
   .contact-item {
