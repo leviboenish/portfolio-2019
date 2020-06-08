@@ -72,11 +72,13 @@ img {
   color: #616161;
   font-weight: 200;
   text-transform: uppercase;
+  line-height: .8;
 }
 
 
 .section-content, .about-content {
   grid-column: 1/5;
+  line-height: 1.5;
 }
 
 .section-header {
@@ -136,12 +138,10 @@ img {
 
   .section-content {
     grid-column: 3/8;
-    line-height: 150%
   }
 
   .about-content{
     grid-column: 7/11;
-    line-height: 150%;
   }
 
   .title {

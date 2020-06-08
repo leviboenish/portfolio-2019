@@ -2,7 +2,7 @@
   <div class="section-container" id="skills">
         <h1 class="section-index">01.</h1>
         <h2 class="section-header">Skills</h2>
-      <p class="section-content">I started out by teaching myself how to code using Codecademy and Treehouse. When I discovered and aptitude and passion for writing code, I decided to attend Front Range Community College to pursue a certificate in front end technologies. Upon finishing the program, I decided I hadn’t had enough so I attended Galvanize, a 6-month immersive full stack development course. Four months into the program I started working professionally as a front-end engineer. Throughout this process I’ve worked with many technologies such as the following:</p>
+      <p class="section-content">I started out by teaching myself how to code using Codecademy and Treehouse. When I discovered and aptitude and passion for writing code, I decided to attend Front Range Community College to pursue a certificate in front end technologies. Upon finishing the program, I decided I hadn’t had enough so I attended Galvanize, a 6-month immersive full stack development course. Four months into the program I started working professionally as a front-end engineer.</p>
       <ul class="skills-list">
           <li>Vue</li>
           <li>React</li>
@@ -21,6 +21,9 @@
 </template>
 
 <script>
+ export default {
+
+    }
 
 </script>
 
@@ -42,7 +45,7 @@
     }
 
     .skills-list {
-        grid-column: 8/10;
+        grid-column: 9/11;
         column-gap: 4rem;
     }
 }

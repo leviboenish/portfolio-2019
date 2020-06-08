@@ -44,6 +44,15 @@
 
 .job-history {
     grid-column: 1/5;
+    margin-bottom: 2rem;
+}
+
+.job-description {
+    line-height: 1.5;
+}
+
+.job-info {
+    margin-bottom: 1.5rem;
 }
 
 .company, .dates {
