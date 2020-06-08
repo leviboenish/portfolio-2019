@@ -39,7 +39,7 @@
     column-gap: 12rem;
 }
 
-@media only screen and (min-width: 1420px) {
+@media only screen and (min-width: 1100px) {
     #skills {
         grid-column: 1/12;
     }

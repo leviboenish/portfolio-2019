@@ -63,7 +63,7 @@
     display: none;
 }
 
-@media only screen and (min-width: 1420px) {
+@media only screen and (min-width: 1100px) {
  
  #experience {
      grid-column: 1/13;

@@ -26,7 +26,7 @@
     white-space: nowrap;
 }
 
-@media only screen and (min-width: 1420px) {
+@media only screen and (min-width: 1100px) {
    #footer {
        grid-column: 1/13;
    }

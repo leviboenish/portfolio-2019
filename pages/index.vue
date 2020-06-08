@@ -76,6 +76,7 @@ img {
   font-weight: 200;
   text-transform: uppercase;
   line-height: .8;
+  padding-bottom: 2rem;
 }
 
 
@@ -106,11 +107,11 @@ img {
    margin-bottom: 5rem;
 }
 
-@media only screen and (min-width: 1420px) {
+@media only screen and (min-width: 1100px) {
   
   .container {
     grid-template-columns: repeat(12, 1fr);
-    padding: 5rem 10rem 0 10rem;
+    /* padding: 5rem 10rem 0 10rem; */
     grid-gap: 3rem;
     max-width: 105rem;
   }
@@ -150,6 +151,7 @@ img {
   .title {
     font-size: 132px;
     grid-column: 1/6;
+    padding-bottom: 0;
   }
 
   .section-container {

@@ -29,6 +29,7 @@ a {
 nav {
   grid-column: 1/3;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 ul {
@@ -36,10 +37,11 @@ ul {
     padding: 0;
 }
 
-@media only screen and (min-width: 1420px) {
+@media only screen and (min-width: 1100px) {
   
   nav{
     grid-column: 11/13;
+    padding-bottom: 0;
   }
 
  .nav-item {

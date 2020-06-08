@@ -59,7 +59,7 @@ svg {
   margin-right: 1rem;
 }
 
-@media only screen and (min-width: 1420px) {
+@media only screen and (min-width: 1100px) {
  
   #contact {
     grid-column: 1/13;
