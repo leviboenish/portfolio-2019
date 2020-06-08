@@ -49,7 +49,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 100vw;
+  max-width: 35rem;
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -84,6 +84,7 @@ img {
   grid-column: 2/4;
   font-size: 50px;
   align-self: end;
+  font-weight: 300;
 }
 
 .section-index {
@@ -97,15 +98,16 @@ img {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    grid-gap: 1rem;
+   margin-bottom: 5rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1420px) {
   
   .container {
     grid-template-columns: repeat(12, 1fr);
-    padding: 5rem 15rem 0 15rem;
+    padding: 5rem 10rem 0 10rem;
     grid-gap: 3rem;
-    max-width: 1920px;
+    max-width: 105rem;
   }
 
   img {
@@ -128,12 +130,12 @@ img {
   }
 
   .section-header {
-      grid-column: 2/4;
+      grid-column: 3/5;
       font-weight: 300;
   }
 
   .section-content {
-    grid-column: 2/6;
+    grid-column: 3/8;
     line-height: 150%
   }
 

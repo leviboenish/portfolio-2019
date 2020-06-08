@@ -57,7 +57,7 @@ svg {
   margin-right: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1420px) {
  
   #contact {
     grid-column: 1/13;
@@ -65,7 +65,7 @@ svg {
   }
 
   .contact-item {
-    grid-column: 7/10;
+    grid-column: 8/11;
   }
 
 }

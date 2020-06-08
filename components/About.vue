@@ -21,7 +21,7 @@
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1420px) {
 
   #about {
     margin-top: 10rem;

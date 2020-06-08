@@ -34,10 +34,10 @@ ul {
     padding: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1420px) {
   
   nav{
-    grid-column: 10/13;
+    grid-column: 11/13;
   }
 
  .nav-item {

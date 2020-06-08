@@ -54,16 +54,15 @@
     display: none;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1420px) {
  
  #experience {
      grid-column: 1/13;
  }
  
  .job-history {
-     grid-column: 2/10;
+     grid-column: 3/10;
      display: grid;
-     grid-template-columns: repeat(6, 1fr);
  }
 
  .company, .dates {
