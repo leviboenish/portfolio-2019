@@ -45,6 +45,9 @@ html { font-family: 'Inter', sans-serif; }
 body {
   background: #141213;
   color: #CFC8C2;
+  background-image: url('../assets/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .container {
