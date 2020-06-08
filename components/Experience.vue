@@ -75,7 +75,7 @@
  }
 
  .job-description {
-    grid-column: 2/7;
+    grid-column: 2/6;
     margin-left: 2rem;
  }
 

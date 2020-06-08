@@ -36,6 +36,12 @@ export default {
 </script>
 <style>
 
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 body {
   background: #141213;
   color: #CFC8C2;
@@ -53,6 +59,7 @@ body {
 
 .main-index {
   display: none;
+  font-weight: 300;
 }
 
 img {
@@ -63,6 +70,8 @@ img {
   grid-column: 1/5;
   font-size: 68px;
   color: #616161;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 
@@ -81,6 +90,7 @@ img {
   color: #242424;
   font-size: 31px;
   align-self: end;
+  font-weight: 300;
 }
 
 .section-container {
@@ -119,14 +129,17 @@ img {
 
   .section-header {
       grid-column: 2/4;
+      font-weight: 300;
   }
 
   .section-content {
     grid-column: 2/6;
+    line-height: 150%
   }
 
   .about-content{
-    grid-column: 7/10;
+    grid-column: 7/11;
+    line-height: 150%;
   }
 
   .title {

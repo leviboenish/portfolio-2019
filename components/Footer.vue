@@ -16,11 +16,12 @@
     grid-column: 1/5;
     text-align: right;
     grid-row-gap: 0;
-    padding-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .footer-item {
     grid-column: 2/5;
+    white-space: nowrap;
 }
 
 @media only screen and (min-width: 600px) {

@@ -31,7 +31,7 @@
   
 
   .sub-title {
-    grid-column: 7/10;
+    grid-column: 7/11;
   }
 
 }
