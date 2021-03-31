@@ -8,7 +8,7 @@
                <h3 class="dates">Jul 2021 &mdash; Present</h3>
           </div>
           <div class="job-description">
-            <p>I am currently a Full Stack Engineer at A2Z sync. I am specializing in react to help build a new app to propel the way we buy cars into the future. Within this app I am writing everything from styles to business logic. We are also using Cypress and PHP to test and develop back end code for our apps.</p>
+            <p>I am currently a Full Stack Engineer at A2Z Sync. I am specializing in react to help build a new app to propel the way we buy cars into the future. Within this app I am writing everything from styles to business logic. We are also using Cypress and PHP to test and develop back end code for our apps.</p>
           </div>
       </div>
       <div class="job-history">
