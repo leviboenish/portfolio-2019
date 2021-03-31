@@ -2,7 +2,6 @@
   <div class="section-container" id="contact">
       <h1 class="section-index">03.</h1>
       <h2 class="section-header">Contact</h2>
-      <p class="section-content">You can reach me all over the web</p>
     
       <div class="contact-item">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +37,9 @@
 </template>
 
 <script>
+ export default {
 
+    }
 </script>
 
 <style>
@@ -51,13 +52,14 @@
   display: flex;
   grid-column: 1/5;
   align-items: center;
+   margin-top: 1.5rem;
 }
 
 svg {
   margin-right: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1100px) {
  
   #contact {
     grid-column: 1/13;
@@ -65,7 +67,8 @@ svg {
   }
 
   .contact-item {
-    grid-column: 7/10;
+    grid-column: 3/11;
+    margin-top: 0;
   }
 
 }

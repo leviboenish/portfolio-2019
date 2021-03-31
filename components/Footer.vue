@@ -7,7 +7,9 @@
 </template>
 
 <script>
+ export default {
 
+    }
 </script>
 
 <style>
@@ -24,7 +26,7 @@
     white-space: nowrap;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1100px) {
    #footer {
        grid-column: 1/13;
    }

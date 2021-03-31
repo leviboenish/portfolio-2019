@@ -53,6 +53,15 @@
 
 .job-history {
     grid-column: 1/5;
+    margin-bottom: 2rem;
+}
+
+.job-description {
+    line-height: 1.5;
+}
+
+.job-info {
+    margin-bottom: 1.5rem;
 }
 
 .company, .dates {
@@ -63,16 +72,15 @@
     display: none;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1100px) {
  
  #experience {
      grid-column: 1/13;
  }
  
  .job-history {
-     grid-column: 2/10;
+     grid-column: 3/10;
      display: grid;
-     grid-template-columns: repeat(6, 1fr);
  }
 
  .company, .dates {
