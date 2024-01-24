@@ -8,31 +8,13 @@
                <h3 class="dates">Nov 2022 &mdash; Present</h3>
           </div>
           <div class="job-description">
-            <p>I am currently employed with Vizio as a front end software engineer. I am assisting with, and leading projects in the ad tech space to help develop internal tools for the company.</p>
-          </div>
-      </div>
-      <div class="job-history">
-          <div class="job-info">
-               <h2 class="company">Red Van Workshop</h2>
-               <h3 class="dates">Jul 2021 &mdash; Nov 2021</h3>
-          </div>
-          <div class="job-description">
-            <p>At Red Van I was brought on to support an in process project for Tilly’s. I was primarily responsible for style clean up, custom CSS solutions, and ADA compliance.</p>
-          </div>
-      </div>
-      <div class="job-history">
-          <div class="job-info">
-               <h2 class="company">A2Z Sync</h2>
-               <h3 class="dates">Jan 2021 &mdash; Jul 2021</h3>
-          </div>
-          <div class="job-description">
-            <p>I was a Full Stack Engineer at A2Z Sync. I specialized in react to help build a new app to propel the way we buy cars into the future. Within this app I wrote everything from styles to business logic. We also used Cypress and PHP to test and develop back end code for our apps.</p>
+            <p>I am currently employed with Vizio as a senior software engineer. I am assisting with, and leading projects in the ad tech space to help develop internal tools for the company. I have been responsible for overhauling our front end team’s unit testing, accessibility, and styling guidelines.</p>
           </div>
       </div>
       <div class="job-history">
           <div class="job-info">
                <h2 class="company">SomaLogic</h2>
-               <h3 class="dates">Jul 2019 &mdash; Jan 2021</h3>
+               <h3 class="dates">Jul 2019 &mdash; Nov 2022</h3>
           </div>
           <div class="job-description">
             <p>At SomaLogic I was a UX/UI engineer. I was the project owner for how our consumer facing reports are rendered. I primarily worked with HTML, CSS, and JS in Vue and we wrote our unit tests in Jest. I did everything from helping to design our apps in Figma to implementing how they were built.</p>
